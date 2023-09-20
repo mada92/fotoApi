@@ -16,8 +16,8 @@ export class Album {
     isActive: boolean;
 
     @Column()
-    created: Date;
+    created: Date = new Date();
 
     @Column()
-    modified: Date;
+    modified: Date = new Date();
 }
